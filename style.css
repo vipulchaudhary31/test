@@ -527,8 +527,8 @@ button.swiper-pagination-bullet {
 /* For mobile */
 @media (max-width: 768px) {
     .two .swiper-slide {
-       width: 300px; /* Fill available space on mobile */
-        height: auto; /* Maintain aspect ratio */
+       width: 100%; /* Fill available space on mobile */
+       height: auto; /* Maintain aspect ratio */
     }
 }
 .swiper-slide img {

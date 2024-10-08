@@ -23,7 +23,7 @@ function updateCoverflowEffect() {
     const firstSlideWidth = slides[0] ? slides[0].offsetWidth : 0;
 
     if (firstSlideWidth <= 400) { // Check if the width is mobile size
-        swiper.params.coverflowEffect.stretch = 180; // Mobile stretch value
+        swiper.params.coverflowEffect.stretch = 100; // Mobile stretch value
     } else {
         swiper.params.coverflowEffect.stretch = 390; // Default stretch value
     }
